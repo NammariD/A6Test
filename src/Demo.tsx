@@ -71,7 +71,7 @@ export default function SignInSheet() {
           >
             <Typography sx = {{ color: "rgb(255,255,255)"}} level = "h3">Welcome to BoardX!</Typography>
           </div>
-
+              <FormControl>
           <div style={{ margin: "20px 0" }}>
             <Email />
           </div>
@@ -84,6 +84,7 @@ export default function SignInSheet() {
           <div style={{ margin: "20px 0" }}>
             <ForgotPassword />
           </div>
+                </FormControl>
         </div>
       </Card>
     </div>
