@@ -10,7 +10,7 @@ export default function InfoBar() {
     <FormControl>
       <Input
       variant="outlined"
-      color="neutral"
+      color="primary"
       sx={{ backgroundColor: "#0B0D0E", "--Input-focusedHighlight": "gray" }}
       placeholder="Email"
     />
