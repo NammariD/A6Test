@@ -7,7 +7,7 @@ import { InfoOutlined } from "@mui/icons-material";
 
 export default function InfoBar() {
   return (
-    <FormControl>
+    
       <Input
       variant="outlined"
       color="primary"
@@ -15,6 +15,6 @@ export default function InfoBar() {
       placeholder="Email"
     />
     
-    </FormControl>
+    
   );
 }
